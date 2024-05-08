@@ -13,12 +13,18 @@ import { logout } from '../../../../actions';
 const RightAligned = styled.div`
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 `;
 
 const StyledIcon = styled.div`
 	&:hover {
 		cursor: pointer;
 	}
+`;
+
+const UserName = styled.div`
+	font-size: 18px;
+	font-weight: bold;
 `;
 
 const ControlPanelContainer = ({ className }) => {
@@ -37,9 +43,13 @@ const ControlPanelContainer = ({ className }) => {
 					</Button>
 				) : (
 					<>
-						<div>{login}</div>
-						<StyledIcon onClick={() => dispatch(logout(session))}>
-							<Icon id="fa-sign-out" margin="10px 0 0 0" />
+						<UserName>{login}</UserName>
+						<StyledIcon>
+							<Icon
+								id="fa-sign-out"
+								margin="0 0 0 10px"
+								onClick={() => dispatch(logout(session))}
+							/>
 						</StyledIcon>
 					</>
 				)}
