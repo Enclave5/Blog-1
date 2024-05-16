@@ -16,7 +16,7 @@
 -   пользователи - users: id / login / password / registed_at / role_id
 -   роли - roles: id / name
 -   статья - posts: id / title / image_url / content / published_at
--   комминтарий - comments: id / author_id / post_id / content
+-   комминтарий - comments: id / author_id / post_id / content / published_at
 
 Схема состояний на BFF:
 
