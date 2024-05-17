@@ -121,46 +121,32 @@
   ],
   "comments": [
     {
-      "id": "e1f2",
+      "id": "4f1b",
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2039-11-04 22:56",
+      "published_at": "2040-08-04 19:44",
       "content": "Отличный пост"
     },
     {
-      "id": "b8b8",
+      "id": "98d6",
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2047-10-01 17:17",
-      "content": "Комментарий 1"
+      "published_at": "2045-02-04 12:55",
+      "content": "Познавательный пост"
     },
     {
-      "id": "a4be",
-      "author_id": "001",
+      "id": "0834",
+      "author_id": "0408",
       "post_id": "001",
-      "published_at": "2036-07-21 02:09",
-      "content": "Комментарий 2"
+      "published_at": "2035-04-03 12:40",
+      "content": "Интересный пост"
     },
     {
-      "id": "d4cd",
-      "author_id": "001",
+      "id": "c7c2",
+      "author_id": "0614",
       "post_id": "001",
-      "published_at": "2052-01-09 16:30",
-      "content": "Комментарий 3"
-    },
-    {
-      "id": "da8b",
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2057-07-23 21:16",
-      "content": "Полезный пост"
-    },
-    {
-      "id": "6b0d",
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2044-04-21 17:36",
-      "content": "Новый комментарий"
+      "published_at": "2059-11-23 20:58",
+      "content": "Не интересно"
     }
   ],
   "sessions": [
@@ -184,6 +170,17 @@
         "password": "qwerty123",
         "registeredAt": "2050-09-22",
         "roleId": 0
+      }
+    },
+    {
+      "id": "6b2d",
+      "hash": "0.54372784055993617080559943133266642689704895019531",
+      "user": {
+        "id": "0614",
+        "login": "ivan2",
+        "password": "qwerty123",
+        "registeredAt": "2054-01-03 17:24",
+        "roleId": 2
       }
     }
   ]
