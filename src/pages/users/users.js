@@ -22,7 +22,6 @@ const UsersContainer = ({ className }) => {
 				}
 				setUsers(usersRes.res);
 				setRoles(rolesRes.res);
-				console.log(rolesRes, rolesRes.res);
 			},
 		);
 	}, [requestServer, shouldUpdateUserList]);
