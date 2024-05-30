@@ -30,10 +30,10 @@ const PostContainer = ({ className }) => {
 			return;
 		}
 
-		dispatch(loadPostAsync(requestServer, params.id)).then((postData) => {
-			setError(postData.error);
-			setIsLoading(false);
-		});
+		dispatch(loadPostAsync(requestServer, params.id)); //.then((postData) => {
+		// setError(postData.error);
+		setIsLoading(false);
+		// });
 	}, [dispatch, requestServer, params.id, isCreating]);
 
 	if (isLoading) {

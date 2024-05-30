@@ -154,6 +154,27 @@
       "post_id": "031b",
       "published_at": "2053-04-17 18:44",
       "content": "Интересно"
+    },
+    {
+      "author_id": "0614",
+      "post_id": "002",
+      "published_at": "2053-01-04 18:04",
+      "content": "Комментарий",
+      "id": "RtIOCY8"
+    },
+    {
+      "author_id": "0614",
+      "post_id": "03a1",
+      "published_at": "2064-11-13 16:12",
+      "content": "Орел",
+      "id": "5iz4IZ9"
+    },
+    {
+      "author_id": "0408",
+      "post_id": "003",
+      "published_at": "2062-10-06 15:25",
+      "content": "Пост",
+      "id": "fHhqUyV"
     }
   ],
   "sessions": [
@@ -200,6 +221,17 @@
         "roleId": 0
       },
       "id": "jFzvCwY"
+    },
+    {
+      "hash": "0.61009733036242441706065164908068254590034484863281",
+      "user": {
+        "id": "0408",
+        "login": "ivan",
+        "password": "qwerty123",
+        "registeredAt": "2036-09-28 14:03",
+        "roleId": 1
+      },
+      "id": "yJxKxBI"
     }
   ]
 }
